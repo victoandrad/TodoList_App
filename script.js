@@ -61,6 +61,7 @@
                     editContainer.style.display = "none"
                 })
                 editContainer.style.display = "flex"
+                containerEditInput.value = arrTasks[taskIndex].name
                 containerEditInput.focus()
 
                 function acessibility(e) {
@@ -115,7 +116,7 @@
             <p class="task-name">${taskObject.name}</p>
             <i class="fas fa-edit" action="editButton"></i>
             <div class="editContainer">
-                <input class="editInput" type="text" value="${taskObject.name}">
+                <input class="editInput" type="text">
                 <button class="editButton" action="containerEditButton">Edit</button>
                 <button class="cancelButton" action="containerCancelButton">Cancel</button>
             </div>
