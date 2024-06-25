@@ -83,6 +83,7 @@
             containerEditButton: function() {
                 arrTasks[taskIndex].name = containerEditInput.value
                 renderTasks()
+                setNewData()
             },
             containerCancelButton: function() {
                 editContainer.style.display = "none"
