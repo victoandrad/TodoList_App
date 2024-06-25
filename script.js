@@ -6,7 +6,7 @@
         let tasksData = localStorage.getItem("tasks")
         tasksData = JSON.parse(tasksData)
 
-        if(tasksData.length) {
+        if(tasksData) {
             return tasksData
         } else {
             return [
