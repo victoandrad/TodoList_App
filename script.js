@@ -1,35 +1,5 @@
 ;(function() {
 
-    // let arrTasks = getSavedData()
-
-    // function getSavedData() {
-    //     let tasksData = localStorage.getItem("tasks")
-    //     tasksData = JSON.parse(tasksData)
-
-    //     if(tasksData.length) {
-    //         return tasksData
-    //     } else {
-    //         return [
-    //             {
-    //                 name: "Task 1",
-    //                 createdAt: Date.now(),
-    //                 completed: false,
-    //             },
-    //             {
-    //                 name: "Task 2",
-    //                 createdAt: Date.now(),
-    //                 completed: false,
-    //             },
-    //         ]
-    //     }
-    // }
-
-    // function setNewData() {
-    //     localStorage.setItem("tasks", JSON.stringify(arrTasks))
-    // }
-
-    // setNewData()
-
     let arrTasks = getSavedData()
 
     function getSavedData() {
