@@ -7,5 +7,5 @@
 - **Mark tasks as completed**: Feel accomplished with every task you finish!
 - **Remove tasks**: Keep your list always up-to-date.
 
-> 🔗 [Check out the website here](https://victoandrad.github.io/todo-list-app)
+> 🔗 [Check out the website here](https://victoandrad.github.io/TodoList_App)
 >>
